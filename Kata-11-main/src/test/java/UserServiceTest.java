@@ -102,4 +102,3 @@ public class UserServiceTest  {
             throw new RuntimeException("При тестировании очистки таблицы пользователей произошло исключение\n" + e);
         }
     }
-}
