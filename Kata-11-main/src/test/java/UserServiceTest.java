@@ -6,7 +6,7 @@ import org.junit.Test;
 import java.sql.SQLException;
 import java.util.List;
 
-public class UserServiceTest  {
+public class UserServiceTest {
     private final UserService userService = new UserServiceImpl();
 
     private final String testName = "Ivan";
@@ -102,3 +102,4 @@ public class UserServiceTest  {
             throw new RuntimeException("При тестировании очистки таблицы пользователей произошло исключение\n" + e);
         }
     }
+}
